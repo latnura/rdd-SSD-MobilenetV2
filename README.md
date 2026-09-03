@@ -226,4 +226,4 @@ The SSD/SSD-Lite architecture in the `vision/` folder is adapted from the [pytor
 
 ## License
 
-Not yet specified. Add a `LICENSE` file as needed (e.g. MIT, following the base `pytorch-ssd` license) if this repo will be shared publicly.
+This project is licensed under the **MIT License**, see the [LICENSE](LICENSE) file for details. Portions of the code (the `vision/` folder, and parts of `train_ssd.py` and `eval_ssd.py`) are adapted from [pytorch-ssd](https://github.com/qfgaohao/pytorch-ssd) by Hao Gao, also MIT licensed. The original copyright notice is retained as required by that license.
