@@ -222,7 +222,11 @@ The program will prompt for the road name and survey KM, then start reading GPS 
 
 ## Acknowledgement
 
-The SSD/SSD-Lite architecture in the `vision/` folder is adapted from the [pytorch-ssd](https://github.com/qfgaohao/pytorch-ssd) implementation by qfgaohao (MIT licensed), with modifications to the training loop (additional scheduler support, W&B logging, and mAP/Precision/Recall/F1 computation) and the addition of a field detection script integrated with GPS and damage area estimation.
+The SSD/SSD-Lite architecture in the `vision/` folder is adapted from the [pytorch-ssd](https://github.com/qfgaohao/pytorch-ssd) implementation by qfgaohao (MIT licensed), with the following modifications:
+
+- **Input resolution changed from the default 300x300 to 512x512** in the `vision/` configuration, with prior boxes and layer sizes adjusted accordingly.
+- Additional scheduler support (plateau, multi-step, cosine), Weights & Biases logging, and mAP/Precision/Recall/F1 computation added to the training loop.
+- Addition of a field detection script integrated with GPS and damage area estimation.
 
 ## License
 
