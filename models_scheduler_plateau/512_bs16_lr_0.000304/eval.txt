@@ -1,0 +1,72 @@
+Confidence threshold = 0.01 untuk mAP
+
+=== Starting Evaluation for IoU thresholds from 0.50 to 0.95 ===
+
+--- Per-Class Metrics @ IoU: 0.50 ---
+  - Class: L00
+    AP       : 0.7307
+    Precision: 0.0168
+    Recall   : 0.9535
+    F1-Score : 0.0331
+  - Class: R02
+    AP       : 0.4917
+    Precision: 0.0114
+    Recall   : 0.8287
+    F1-Score : 0.0225
+  - Class: R03
+    AP       : 0.6969
+    Precision: 0.0222
+    Recall   : 0.9049
+    F1-Score : 0.0434
+----------------------------------------
+
+
+========================================
+      MODEL EVALUATION SUMMARY
+========================================
+Precision        : 0.0168
+Recall           : 0.8957
+F1-Score         : 0.0330
+----------------------------------------
+mAP @ 0.5        : 0.6397
+mAP @ 0.5:0.95   : 0.3716
+========================================
+
+NOTE: 'Total Loss' and 'Time' are training metrics.
+(mb2) latifah@leviack:~/Documents/latifah/TRAIN_CUSTO
+
+COnfidence threshold = 0.21 untuk KPI lainnya
+
+=== Starting Evaluation for IoU thresholds from 0.50 to 0.95 ===
+
+--- Per-Class Metrics @ IoU: 0.50 ---
+  - Class: L00
+    AP       : 0.6410
+    Precision: 0.7315
+    Recall   : 0.7603
+    F1-Score : 0.7456
+  - Class: R02
+    AP       : 0.4061
+    Precision: 0.6383
+    Recall   : 0.4144
+    F1-Score : 0.5025
+  - Class: R03
+    AP       : 0.5889
+    Precision: 0.7458
+    Recall   : 0.6814
+    F1-Score : 0.7121
+----------------------------------------
+
+
+========================================
+      MODEL EVALUATION SUMMARY
+========================================
+Precision        : 0.7052
+Recall           : 0.6187
+F1-Score         : 0.6534
+----------------------------------------
+mAP @ 0.5        : 0.5453
+mAP @ 0.5:0.95   : 0.3390
+========================================
+
+NOTE: 'Total Loss' and 'Time' are training metrics.
