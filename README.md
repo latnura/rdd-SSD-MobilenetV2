@@ -115,7 +115,7 @@ The converted dataset will be saved to `./Dataset_testval/VOCdevkit/` with the f
 
 ```
 Dataset_testval/VOCdevkit/
-├── VOC2007/            # Training data (train + valid)
+├── VOC2007/            # Training data (train)
 └── test/VOC2007/       # Test data (test + valid)
 ```
 
@@ -226,4 +226,4 @@ The SSD/SSD-Lite architecture in the `vision/` folder is adapted from the [pytor
 
 ## License
 
-Not yet specified. Add a `LICENSE` file as needed (e.g. MIT, following the base `pytorch-ssd` license) if this repo will be shared publicly.
+Distributed under the MIT License.
